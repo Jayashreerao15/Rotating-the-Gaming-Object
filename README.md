@@ -37,6 +37,9 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```c#
+
+```
 
 ## Output:
 
