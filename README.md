@@ -38,9 +38,29 @@ Stop
 
 ## Program:
 ```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NewBehaviourScript : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.up, 60 * Time.deltaTime);
+    }
+}
 
 ```
 
 ## Output:
+![c#1](https://user-images.githubusercontent.com/74660507/188323327-599603c7-4830-493a-a95f-ffc92460b124.PNG)
 
 ## Result:
+Thus,the 3D application for rotating the gaming objects in unity is developed successfully.
